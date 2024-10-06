@@ -1,0 +1,51 @@
+Color Schemes
+
+Classic and Elegant
+    Primary Color: Navy Blue (#001f3f)
+    Secondary Color: Gold (#FFD700)
+    Accent Color: White (#FFFFFF)
+    Background Color: Light Gray (#F0F0F0)
+
+Modern and Minimalist
+    Primary Color: Charcoal (#333333)
+    Secondary Color: Teal (#008080)
+    Accent Color: Coral (#FF7F50)
+    Background Color: White (#FFFFFF)
+
+Warm and Inviting
+    Primary Color: Maroon (#800000)
+    Secondary Color: Mustard Yellow (#FFDB58)
+    Accent Color: Olive Green (#808000)
+    Background Color: Beige (#F5F5DC)
+
+Fresh and Vibrant
+    Primary Color: Forest Green (#228B22)
+    Secondary Color: Sky Blue (#87CEEB)
+    Accent Color: Sunshine Yellow (#FFD700)
+    Background Color: White (#FFFFFF)
+
+Font Combinations
+
+Classic and Elegant
+    Headings: Playfair Display (serif)
+    Body Text: Lora (serif)
+
+Modern and Minimalist
+    Headings: Montserrat (sans-serif)
+    Body Text: Open Sans (sans-serif)
+
+Warm and Inviting
+    Headings: Merriweather (serif)
+    Body Text: Roboto (sans-serif)
+
+Fresh and Vibrant
+    Headings: Poppins (sans-serif)
+    Body Text: Lato (sans-serif)
+
+Example Combination
+
+For a classic and elegant look:
+    Color Scheme: Navy Blue, Gold, White, Light Gray
+    Fonts: Playfair Display for headings and Lora for body text
+
+This combination gives a sophisticated and timeless feel, perfect for a bookstore that wants to convey a sense of tradition and quality.
