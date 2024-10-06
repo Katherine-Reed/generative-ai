@@ -1,0 +1,29 @@
+Warm and Inviting Theme
+
+Primary Color
+    Name: Maroon
+    HEX: #800000
+    RGB: rgb(128, 0, 0)
+
+Secondary Color
+    Name: Mustard Yellow
+    HEX: #FFDB58
+    RGB: rgb(255, 219, 88)
+
+Tertiary Color
+    Name: Olive Green
+    HEX: #808000
+    RGB: rgb(128, 128, 0)
+
+Accent Color
+    Name: Beige
+    HEX: #F5F5DC
+    RGB: rgb(245, 245, 220)
+
+Summary
+    Primary Color: Maroon (#800000, rgb(128, 0, 0))
+    Secondary Color: Mustard Yellow (#FFDB58, rgb(255, 219, 88))
+    Tertiary Color: Olive Green (#808000, rgb(128, 128, 0))
+    Accent Color: Beige (#F5F5DC, rgb(245, 245, 220))
+
+This combination should create a warm and inviting atmosphere for your bookstore website.
