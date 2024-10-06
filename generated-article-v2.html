@@ -1,4 +1,4 @@
-<!--Finally, I would like to create a simple article layout, with headline, author byline, a featured image, and the article itself. Then under the article there should be categories and other suggested articles. Please be sure to use SEO-friendly, semantic HTML markup, using the appropriate HTML tags, properties, and schemas.-->
+<!--Finally, I would like to create a simple article layout, with headline, author byline, a featured image, and the article itself. Then under the article there should be categories and other suggested articles.-->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -20,9 +20,6 @@
             max-width: 100%;
             height: auto;
         }
-        .author {
-            font-style: italic;
-        }
         .categories {
             font-style: italic;
         }
@@ -36,15 +33,15 @@
     </style>
 </head>
 <body>
-    <article class="article">
+    <div class="article">
         <h1>The Art of Web Accessibility</h1>
-        <p class="author">By John Doe</p>
+        <p>By John Doe</p>
         <img class="featured-image" src="[Featured Image URL]" alt="Featured Image">
         <p>
             Web accessibility ensures that people with disabilities can perceive, understand, navigate, and interact with websites and web applications. As a web developer, it's essential to create inclusive digital experiences. Here are some key points:
         </p>
         <ul>
-            <li>Use semantic HTML elements (e.g., <nav>, <article>, <button>) to provide meaning and structure.</li>
+            <li>Use semantic HTML elements (e.g., &lt;nav&gt;, &lt;article&gt;, &lt;button&gt;) to provide meaning and structure.</li>
             <li>Provide alternative text for images using the <code>alt</code> attribute.</li>
             <li>Ensure proper color contrast for text and background.</li>
             <li>Use keyboard-friendly navigation and focus styles.</li>
@@ -59,11 +56,11 @@
                 <li><a href="[Article 3 URL]">A11y Testing Tools</a></li>
             </ul>
         </div>
-    </article>
+    </div>
     <!--Explanation:
 
     Replace [Featured Image URL], [Article 1 URL], [Article 2 URL], and [Article 3 URL] with actual URLs.
-    Use semantic HTML elements (&lt;article&gt;, &lt;h1&gt;, &lt;p&gt;, &lt;ul&gt;, etc.) for better SEO and accessibility.
-    Customize the styling and adjust the layout according to your design preferences.-->
+    Customize the styling and adjust the layout according to your design preferences.
+    Feel free to enhance or modify this layout to fit your specific needs.-->
 </body>
 </html>
