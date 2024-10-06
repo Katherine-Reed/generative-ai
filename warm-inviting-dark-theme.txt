@@ -1,0 +1,17 @@
+Inverted Colors for Dark Mode
+    Primary Color (Inverted)
+        Name: Light Coral
+        HEX: #FF8080
+        RGB: rgb(255, 128, 128)
+    Secondary Color (Inverted)
+        Name: Dark Slate Gray
+        HEX: #2B2B2B
+        RGB: rgb(43, 43, 43)
+    Tertiary Color (Inverted)
+        Name: Light Olive Green
+        HEX: #BFBF80
+        RGB: rgb(191, 191, 128)
+    Accent Color (Inverted)
+        Name: Dark Beige
+        HEX: #3A3A2B
+        RGB: rgb(58, 58, 43)
