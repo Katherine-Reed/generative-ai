@@ -1,0 +1,66 @@
+<!--Finally, I would like to create a simple article layout, with headline, author byline, a featured image, and the article itself. Then under the article there should be categories and other suggested articles.-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Art of Web Accessibility</title>
+    <style>
+        /* Add your CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .article {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .featured-image {
+            max-width: 100%;
+            height: auto;
+        }
+        .categories {
+            font-style: italic;
+        }
+        .suggested-articles {
+            margin-top: 20px;
+        }
+        .suggested-articles a {
+            text-decoration: none;
+            color: #0074D9;
+        }
+    </style>
+</head>
+<body>
+    <div class="article">
+        <h1>The Art of Web Accessibility</h1>
+        <p>By John Doe</p>
+        <img class="featured-image" src="[Featured Image URL]" alt="Featured Image">
+        <p>
+            Web accessibility ensures that people with disabilities can perceive, understand, navigate, and interact with websites and web applications. As a web developer, it's essential to create inclusive digital experiences. Here are some key points:
+        </p>
+        <ul>
+            <li>Use semantic HTML elements (e.g., <nav>, <article>, <button>) to provide meaning and structure.</li>
+            <li>Provide alternative text for images using the <code>alt</code> attribute.</li>
+            <li>Ensure proper color contrast for text and background.</li>
+            <li>Use keyboard-friendly navigation and focus styles.</li>
+        </ul>
+        <p>Remember that accessibility benefits everyone, not just those with disabilities. Let's build a web that's usable by all!</p>
+        <p class="categories">Categories: Web Development, Accessibility</p>
+        <div class="suggested-articles">
+            <h3>Suggested Articles</h3>
+            <ul>
+                <li><a href="[Article 1 URL]">Creating Accessible Forms</a></li>
+                <li><a href="[Article 2 URL]">Inclusive Design Principles</a></li>
+                <li><a href="[Article 3 URL]">A11y Testing Tools</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--Explanation:
+
+    Replace [Featured Image URL], [Article 1 URL], [Article 2 URL], and [Article 3 URL] with actual URLs.
+    Customize the styling and adjust the layout according to your design preferences.
+    Feel free to enhance or modify this layout to fit your specific needs.-->
+</body>
+</html>
