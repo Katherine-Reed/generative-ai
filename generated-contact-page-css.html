@@ -1,0 +1,89 @@
+<!--Finally, I would like to create a contact page template. You can use version 1 of the HTML template you created, with the folllowing format:
+
+Contact information: Email, phone, address. Please include a full-width google map embed placeholder here. There should also be a contact form that collects name, email (both required), reason for contacting us, and a large textarea for the body of the message.
+
+FAQ section: common queries and their answers.
+
+Please ensure all sections have accessible, semantic markup, are SEO-friendly, and when necessary, they use the right schema to signal the type of content for search engines.-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact [Your Bookstore Name] for inquiries, feedback, and more.">
+    <title>Contact - [Your Bookstore Name]</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header>
+        <!-- Your header content here -->
+        <h1>[Your Bookstore Name]</h1>
+        <nav>
+            <!-- Navigation links here -->
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <!-- Add more navigation links as needed -->
+            </ul>
+        </nav>
+    </header>
+
+    <main class="content">
+        <section class="contact-info">
+            <h2>Contact Information</h2>
+            <p>Email: <a href="mailto:info@yourbookstore.com">info@yourbookstore.com</a></p>
+            <p>Phone: +1 (123) 456-7890</p>
+            <p>Address: 123 Main Street, Chesterfield, Derbyshire</p>
+
+            <!-- Google Map embed placeholder -->
+            <!-- Replace with your actual Google Map embed code -->
+            <div class="google-map">
+                <!-- Your Google Map iframe goes here -->
+                <!-- Example: <iframe src="https://www.google.com/maps/embed?..."></iframe> -->
+            </div>
+        </section>
+
+        <section class="contact-form">
+            <h2>Contact Us</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="reason">Reason for Contacting:</label>
+                <select id="reason" name="reason">
+                    <option value="general">General Inquiry</option>
+                    <option value="order">Order Inquiry</option>
+                    <!-- Add more options as needed -->
+                </select>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="6"></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <section class="faq">
+            <h2>Frequently Asked Questions</h2>
+            <dl>
+                <dt>Q: How do I place an order?</dt>
+                <dd>A: Visit our online store and select your desired books.</dd>
+
+                <dt>Q: What payment methods do you accept?</dt>
+                <dd>A: We accept credit cards, PayPal, and bank transfers.</dd>
+                <!-- Add more FAQs as needed -->
+            </dl>
+        </section>
+    </main>
+
+    <footer>
+        <!-- Footer content here -->
+        <p>© 2023 [Your Bookstore Name]. All rights reserved.</p>
+    </footer>
+</body>
+</html>

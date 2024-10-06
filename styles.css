@@ -1,0 +1,139 @@
+:root {
+    --primary-color: #2e8857;
+    --secondary-color: #8b4513;
+    --tertiary-color: #8a9a5b;
+    --accent-color: #ffa07a;
+    --background-color: #f5f5dc;
+
+    --primary-color-dark: #4dbd8c;
+    --secondary-color-dark: #e6a57e;
+    --tertiary-color-dark: #b0b69f;
+    --accent-color-dark: #ffd1aa;
+    --background-color-dark: #333333;
+}
+
+body {
+    background-color: var(--background-color);
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Merriweather', serif;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+}
+
+.contact-info, .contact-form, .faq {
+    margin-bottom: 2rem;
+}
+
+.contact-info h2, .contact-form h2, .faq h2 {
+    color: var(--primary-color);
+}
+
+.contact-info p, .contact-form label, .faq dt {
+    margin-bottom: 0.5rem;
+}
+
+.contact-form input, .contact-form select, .contact-form textarea {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: block;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    width: 100%;
+}
+
+.contact-form button {
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    padding: 0.75rem 1.5rem;
+}
+
+.contact-form button:hover {
+    background-color: var(--secondary-color);
+}
+
+.faq dl {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 1rem;
+}
+
+.faq dt {
+    font-weight: bold;
+}
+
+.faq dd {
+    margin-bottom: 1rem;
+}
+
+footer {
+    background-color: var(--tertiary-color);
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: var(--background-color-dark);
+        color: #f5f5f5;
+    }
+
+    header {
+        background-color: var(--primary-color-dark);
+    }
+
+    nav ul li a {
+        color: var(--accent-color-dark);
+    }
+
+    .contact-info h2, .contact-form h2, .faq h2 {
+        color: var(--primary-color-dark);
+    }
+
+    .contact-form button {
+        background-color: var(--primary-color-dark);
+    }
+
+    .contact-form button:hover {
+        background-color: var(--secondary-color-dark);
+    }
+
+    footer {
+        background-color: var(--tertiary-color-dark);
+    }
+}
